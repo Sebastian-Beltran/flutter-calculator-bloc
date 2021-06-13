@@ -1,0 +1,15 @@
+Flutter BLoC
+-Es un gestor de estados como Getx, Provider.
+-Por sus siglas de Business Logic Component, lo que nos permite es separar la logica del negocio
+de las vistas.
+-Clase que internamente tiene un State: Sin un Widget necesita cambiar el estado, lo que hace es 
+disparar un evento, el evento es resivido por el BLoC (No por el state), Este lo analiza y genera un
+nuevo estado.
+-Tiene dos "formas" BLoC y Cubit: Cubit es una forma simplificada de BLoC, tiene menos 
+funcionalidades.
+-BloC se conforma de tres archivos: 
+    -BloC: Contenedor padre que contiene el State
+    -Events: Es lo que esta afuera y desencadena las acciones
+    -State: Esta dentro de BloC
+
+
